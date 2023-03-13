@@ -1,0 +1,36 @@
+p {
+    font-weight: bold;
+}
+
+#app {
+    height: 100%;
+}
+
+.nav-loader-container {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255 255 255 / 50%);
+    z-index: 10;
+}
+
+.outer-container {
+    padding: 1rem;
+    height: 100%;
+}
+
+.inner-container {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    overflow: auto;
+}
+
+.navigation-bar {
+    width: 100%;
+}
+
+.nav-item {
+    width: 120px;
+    text-align: center;
+    word-break: break-all;
+}
